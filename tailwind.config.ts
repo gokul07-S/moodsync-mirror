@@ -47,15 +47,31 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        mood: {
+          happy: {
+            from: "hsl(var(--mood-happy-from))",
+            to: "hsl(var(--mood-happy-to))",
+          },
+          sad: {
+            from: "hsl(var(--mood-sad-from))",
+            to: "hsl(var(--mood-sad-to))",
+          },
+          calm: {
+            from: "hsl(var(--mood-calm-from))",
+            to: "hsl(var(--mood-calm-to))",
+          },
+          energetic: {
+            from: "hsl(var(--mood-energetic-from))",
+            to: "hsl(var(--mood-energetic-to))",
+          },
+          anxious: {
+            from: "hsl(var(--mood-anxious-from))",
+            to: "hsl(var(--mood-anxious-to))",
+          },
+          neutral: {
+            from: "hsl(var(--mood-neutral-from))",
+            to: "hsl(var(--mood-neutral-to))",
+          },
         },
       },
       borderRadius: {
